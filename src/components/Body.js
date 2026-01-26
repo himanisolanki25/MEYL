@@ -29,7 +29,7 @@ const Body = () => {
   // Using https://corsproxy.io/? to bypass cors error
   const fetchData = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.65420&lng=77.23730&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=26.83730&lng=80.91650&carousel=true&third_party_vendor=1"
     );
     const json = await data.json();
     console.log(json);
