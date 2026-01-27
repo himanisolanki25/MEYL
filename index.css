@@ -67,3 +67,7 @@
     color: #dcdcdcff;
     font-size: xx-large;
 }
+.user-card {
+    padding: 10px;
+    border: 1px solid black;
+}

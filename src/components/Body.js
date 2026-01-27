@@ -3,6 +3,7 @@ import RestaurantCard from "./RestaurantCard";
 // no longer need this resList. Getting data from the live data
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   console.log('Body Rendered!')
@@ -98,8 +99,9 @@ const Body = () => {
       <div className="res-container">
         {/* {cards} */}
         {filteredRestaurant.map((restaurant) => (
-          <RestaurantCard key={restaurant.info.id} resData={restaurant} />
+          <Link key={restaurant.info.id} to={"/restaurants/"+restaurant.info.id}><RestaurantCard resData={restaurant} /></Link>
         ))}
+        {/* Initially placed the key in the <RestaurantCard> but when used link, moved it there as key should be in the parent jsx */}
         {/* Some people also use index as a key. In that case, we have 2nd parameter index
         which increases by 1 everytime looping on the resList */}
         {/* {resList.map((restaurant, index) => 
