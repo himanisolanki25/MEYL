@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <!-- Background circle - filled orange -->
+  <circle cx="60" cy="60" r="50" fill="#FF6B35"/>
+  
+  <!-- Fork icon -->
+  <path d="M 50 35 L 50 75 M 45 35 L 45 50 Q 45 55 50 55 M 55 35 L 55 50 Q 55 55 50 55" 
+        stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Spoon icon -->
+  <path d="M 70 35 Q 70 45 70 50 Q 70 52 68 52 Q 66 52 66 50 Q 66 45 66 35 M 68 52 L 68 75" 
+        stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- MEYL text -->
+  <text x="130" y="75" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2C3E50">
+    MEYL
+  </text>
+  
+  <!-- Tagline -->
+  <text x="132" y="95" font-family="Arial, sans-serif" font-size="14" fill="#7F8C8D" letter-spacing="1">
+    meals, delivered
+  </text>
+</svg>

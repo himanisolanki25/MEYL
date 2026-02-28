@@ -1,4 +1,10 @@
-.header {
+/* kind of importing tailwind into our index.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .header {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
@@ -71,3 +77,12 @@
     padding: 10px;
     border: 1px solid black;
 }
+.offline-status {
+    height: 80vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(210, 209, 209);
+    font-size: xx-large;
+} */

@@ -38,6 +38,7 @@ class UserClass extends React.Component {
       // need to call setInterval
       // clearInterval(this.timer);
     }
+
   render() {
     // console.log("Child render")
     // const {name, location} = this.props
@@ -57,6 +58,7 @@ class UserClass extends React.Component {
         <h1>{name}</h1>
         <h2>{location}</h2>
         <h3>Contact: @himanisolanki25</h3>
+        
       </div>
     );
   }
